@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    text-align: center;
+    background-image:url("img/pipoca2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+  }
+    
+  h1 {
+    color: rgb(111, 2, 2);
+    margin-bottom: 20px;
+  }
+    
+  label {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 10px;
+  }
+    
+  input[type="text"], input[type="date"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+    
+  input[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(161, 1, 1);
+    color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+    
+  input[type="submit"]:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+  }
+    
+  hr {
+    margin-top: 40px;
+    border: none;
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+    
+  h2 {
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+  }
+    
+  div {
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    width: 80%; /* ajuste o valor de acordo com a largura desejada */
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%; /* ajuste o valor de acordo com a largura desejada */
+  }
+  
+  th, td {
+    border: 1px solid  rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
